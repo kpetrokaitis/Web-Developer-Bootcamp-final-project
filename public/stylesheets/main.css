@@ -1,0 +1,33 @@
+body {
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete_form {
+    display: inline;
+}
+
+.checked {
+    color: orange;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#tomakeequal {
+    margin-left: 16px;
+    font-size: 15px;
+}
