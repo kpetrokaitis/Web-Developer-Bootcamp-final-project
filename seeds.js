@@ -82,19 +82,6 @@ var seeds = [
         }
     },
     {
-        name: "Trail's Campsite", 
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgJalesYjkra55LLlfNHXbpx2dYcYr6_n429CsEQ6Xu1KjlwPSg",
-        price: "30",
-        location: "Kaunas",
-        lat: 54.896870,
-        lng: 23.892429,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        author: {
-            id: "5cc8036dc0284a0c88a788ee",
-            username: "test"
-        }
-    },
-    {
         name: "Skyfall's Rest", 
         image: "https://cdn.vox-cdn.com/thumbor/-JoPdcgAuLTUsWiDZ62CX4wb33k=/0x0:5225x3479/1200x800/filters:focal(2195x1322:3031x2158)/cdn.vox-cdn.com/uploads/chorus_image/image/54137643/camping_tents.0.jpg",
         price: "100",
