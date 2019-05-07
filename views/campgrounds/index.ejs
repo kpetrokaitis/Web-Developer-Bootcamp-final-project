@@ -19,7 +19,7 @@
              </p>
          </div>
     </header>
-    <div class="row text-center" id="test" style="display:flex;  flex-wrap: wrap;">
+    <div class="row text-center" id="setmargin" style="display:flex;  flex-wrap: wrap;">
         <div class="col-sm-12">
             <% if(noMatch !== null) { %>
             <h3><%= noMatch %></h3>
@@ -28,7 +28,7 @@
         <% campgrounds.forEach(function(campground){ %>
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
-                   <img src="<%= campground.image %>">
+                   <img id="setheight"src="<%= campground.image %>">
                    <div class="caption">
                        <h4><%= campground.name %></h4>
                        <% if (campground.rating === 0) { %>

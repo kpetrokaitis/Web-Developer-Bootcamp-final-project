@@ -4,7 +4,7 @@ body {
 
 .thumbnail img {
     width: 100%;
-    height: 150px;
+    
 }
 
 .thumbnail {
@@ -33,7 +33,11 @@ body {
     font-size: 15px;
 }
 
-#test {
+#setmargin {
     margin-left: 175px;
     margin-right: 175px;
+}
+
+#setheight {
+    height: 150px;
 }
