@@ -4,6 +4,7 @@ body {
 
 .thumbnail img {
     width: 100%;
+    height: 150px;
 }
 
 .thumbnail {
@@ -30,4 +31,9 @@ body {
 #tomakeequal {
     margin-left: 16px;
     font-size: 15px;
+}
+
+#test {
+    margin-left: 175px;
+    margin-right: 175px;
 }
