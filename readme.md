@@ -1,111 +1,41 @@
-#YelpCamp
+Colt Steele's Web Dev Bootcamp (Full Stack) on Udemy - https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
 
-##Initial Setup
-* Add Landing Page
-* Add Campgrounds Page that lists all campgrounds
+## Technology included 
+HTML5
+CSS3
+JavaScript
+Bootstrap
+SemanticUI
+DOM Manipulation
+jQuery
+Unix(Command Line) Commands
+NodeJS
+NPM
+ExpressJS
+REST
+MongoDB
+Database Associations
+Authentication
+PassportJS
+Authorization
 
-Each Campground has:
-   * Name
-   * Image
+## YelpCamp Extra features
 
-##Layout and Basic Styling
-* Create our header and footer partials
-* Add in Bootstrap
+CSS3 background animation on landing page 
+Fuzzy Search 
+Campground location with Google Maps
+Campground cost 
+Footer 
+Home link in navigation 
+Authentication flash messages 
+Display time since post was created with Moment JS 
+User profile 
+Password reset 
+Image upload with multer and cloudinary
+Refactor callbacks with Async/Await in seeds.js file
+Ratings and reviews
+Comments on the campground show page
+Pagination in campgrounds index
 
-##Creating New Campgrounds
-* Setup new campground POST route
-* Add in body-parser
-* Setup route to show form
-* Add basic unstyled form
-
-##Style the campgrounds page
-* Add a better header/title
-* Make campgrounds display in a grid
-
-##Style the Navbar and Form
-* Add a navbar to all templates
-* Style the new campground form
-
-##Add Mongoose
-* Install and configure Mongoose
-* Setup campground model
-* Use campground model inside of our routes
-
-##Show Page
-* Review the RESTful routes we've seen so far
-* Add description to our campground model
-* Show db.collection.drop()
-* Add a show route/template
-
-##Refactor Mongoose Code
-* Create a models directory
-* Use module.exports
-* Require everything correctly!
-
-##Add Seeds File
-* Add a seeds.js file
-* Run the seeds file every time the server starts
-
-##Add the Comment model!
-* Make our errors go away!
-* Display comments on campground show page
-
-##Comment New/Create
-* Discuss nested routes
-* Add the comment new and create routes
-* Add the new comment form
-
-##Style Show Page
-* Add sidebar to show page
-* Display comments nicely
-
-##Finish Styling Show Page
-* Add public directory
-* Add custom stylesheet
-
-##Auth Pt. 1 - Add User Model
-* Install all packages needed for auth
-* Define User model 
-
-##Auth Pt. 2 - Register
-* Configure Passport
-* Add register routes
-* Add register template
-
-##Auth Pt. 3 - Login
-* Add login routes
-* Add login template
-
-##Auth Pt. 4 - Logout/Navbar
-* Add logout route
-* Prevent user from adding a comment if not signed in
-* Add links to navbar
-
-##Auth Pt. 5 - Show/Hide Links
-* Show/hide auth links in navbar 
-
-##Refactor The Routes
-* Use Express router to reoragnize all routes
-
-
-
-
-
-
-
-RESTFUL ROUTES
-
-name      url      verb    desc.
-===============================================
-INDEX   /dogs      GET   Display a list of all dogs
-NEW     /dogs/new  GET   Displays form to make a new dog
-CREATE  /dogs      POST  Add new dog to DB
-SHOW    /dogs/:id  GET   Shows info about one dog
-
-INDEX   /campgrounds
-NEW     /campgrounds/new
-CREATE  /campgrounds
-SHOW    /campgrounds/:id
-
-NEW     campgrounds/:id/comments/new    GET
-CREATE  campgrounds/:id/comments      POST
+## YelpCamp project deployed on heroku: https://beautiful-campsites.herokuapp.com -automatic!
+This application publishes crowd-sourced reviews about Camping Sites.
